@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- Agrupa una serie de elementos, como checkbox, inputs -->
+    <!-- action(atributos) hace referencia a la url a que se quiere enviar -->
+    <!-- get: gestiona la informacion -->
+    <!-- post: envia informacion a .html y espera a que se haga algo con la informacion  -->
+    <form action="resultados.html">
+        <div>
+            <label for="nameUser">Nombre de usuario</label>
+            <!-- campos nuestros usuarios introducen la informacion -->
+            <input type="text" name="nameUser" id="nameUser">
+        </div>
+            <!-- areas expandibles -->
+        <div>
+            <label for="comment">Comentarios</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="text" name="password" id="password">
+        </div>
+        
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>

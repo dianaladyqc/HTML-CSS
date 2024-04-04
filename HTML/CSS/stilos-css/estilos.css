@@ -1,0 +1,16 @@
+.d1, .d2 {
+    background-color: chocolate;
+}
+
+.sp1 {
+    background-color: aqua;
+}
+
+.sp1 {
+    float: right;
+}
+
+.imagen {
+    width: 50 px;
+    height: 50px;
+}

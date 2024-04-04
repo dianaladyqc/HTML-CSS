@@ -1,0 +1,90 @@
+h3 {
+    color: red;
+    background-color: blueviolet;
+}
+
+/* estoy probando colores y tamaño de fuente */
+p {
+    /* propiedad y valor */
+    color: blue;
+    font-size: 10pt;
+}
+
+/* selector  de id*/
+#p1 {
+    color: green;
+    font-size: 12pt;
+}
+
+/* selectores de clase */
+.p2 {
+    font-size: 24pt;
+    text-transform: uppercase;
+
+}
+
+
+selector universal
+*.p2 {
+    color: yellow;
+}
+
+.fecha, .autor {
+    /* subrrayado */
+    text-decoration: underline;
+}
+
+/* estilos para colores */
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: #BD2D87;
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+
+/* backgrounds: podemos utilizar los colores rgb, rgba, color, color-hexadecimal*/
+.fondo {
+    background-image: url(../Imagenes/8090.png);
+    background-position: none;
+}
+
+.fondo-02{
+    background-image: url(../Imagenes/8090.png);
+    background-position: left bottom;
+}
+
+/* estilos de altura, anchura, padding y margin */
+.ancho {
+    background-color: #BD2D87;
+    width: 300px;
+}
+
+.alto {
+    background-color: #BD2D87;
+    height: 100px;
+}
+
+.targeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* elimina el borde superior */
+    border-top: none;
+    /* referencia de los pixeles, arriba, izquierda-derecha, abajo */
+    padding: 10px 15px ;
+    margin: 10px 20px;
+}
+
+/* Fuentes */
+.fuente{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;
+}
+

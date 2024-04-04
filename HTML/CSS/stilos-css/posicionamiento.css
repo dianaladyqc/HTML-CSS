@@ -1,0 +1,36 @@
+/*Posc. relativo: se posiciona en realcion al posicionamiento original  */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/*Posc. Fijo: se posiciona en relacion a la pantalla */
+.fixed {
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    background-color: greenyellow;
+}
+/* Posc. con respecto al padre */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+/* Posc. sticky: posicionar un elemento y que siempre este visible */
+/* al hacer el scroll se matiene su posicionameinto */
+.sticky {
+    position: sticky;
+    background-color: blueviolet;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}

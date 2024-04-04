@@ -1,0 +1,35 @@
+.flex {
+    /* permite ordenar los contenedores */
+    display: flex;
+    /* permite hacer el rederizado de los contenedores */
+    flex-direction: row-reverse;
+    background-color: yellow;
+    height: 300px;
+    /* permite justificar los contenedores: center, space-around */
+    justify-content: center;
+    /* permite cambiar el tamaño del contenedor segun al contenido que tiene */
+    align-items: center;
+    /* permite redimencionar segun al tamaño, wrap */
+    /* flex-wrap: nowrap; */
+}
+
+.contenido-1 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
