@@ -1,0 +1,12 @@
+/* .espacio{
+    white-space: pre-line;
+} */
+
+table {
+    /* boder collapse-separate- */  
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    /* top  */
+    caption-side: bottom;
+}

@@ -1,0 +1,71 @@
+/*#Caja{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+#Caja2{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin:100px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+p{
+    background-color: white;
+}*/
+
+/*#Caja3{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 200px;
+}*/
+
+/*#Caja{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}*/
+
+/*#Caja{
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-right-color: salmon;
+    border-left-color:springgreen;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+#Caja2{
+    border-width: 10px;
+    border-color: yellow;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style: solid;
+    border-left-style: double;
+    border-style: outset;
+}*/
+
+/*#Caja{
+    background-image: url("luna.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+body{
+    background: url("luna.jpg") fixed no-repeat;
+}

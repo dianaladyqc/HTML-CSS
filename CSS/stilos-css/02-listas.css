@@ -1,0 +1,25 @@
+.menu{
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #7C7C7C;
+    border-bottom: none;
+}
+
+.menu li{
+    border-bottom: 1px solid #7C7C7C;
+    border-top: 1px solid #FFF;
+    background: #F4F4F4;
+}
+
+.menu li a{
+    padding: .2em 0 .2em .5em;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li a:hover{
+    color: darkgoldenrod;
+}

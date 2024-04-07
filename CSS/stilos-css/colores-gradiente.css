@@ -1,0 +1,17 @@
+/* .p1 {
+    color: purple;
+}
+
+.p2 {
+    color: rgb(90,25,36);
+}
+
+.p3 {
+    color: rgb(16%,50%,205);
+} */
+
+/* gradiente */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

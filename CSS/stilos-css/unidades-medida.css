@@ -1,0 +1,27 @@
+body {
+    font-size: 24px;
+}
+
+/* las unidades relativas dependen de muchos factores */
+/* saldria un total de 24+32 */
+#relativa {
+    /* en pixeles serian 2x16=32 pixeles */
+    font-size: 2em;
+}
+
+/* los cambios si se visualiza en la unidad absoluta, y tambien en el body de forma independiente */
+#absoluta {
+    font-size: 1in;
+}
+
+/* Porcentajes */
+div {
+    width: 50%;
+    height: 40%;
+
+}
+/* p es el 50% del tamaño original de div */
+p {
+    font-size: 50%;
+}
+

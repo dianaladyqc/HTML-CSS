@@ -1,0 +1,38 @@
+/*h1{
+    color: purple;
+    background-color: yellow;
+}
+
+p{
+    color: red;
+    background-color: silver;
+}
+
+h1{
+    color: rgb(90, 252, 95);
+    background-color: rgb(18, 0, 173 );
+}
+
+p{
+    color: rgb(210, 231, 4);
+    background-color: rgb(31, 227, 215);
+}*/
+
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(317deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+h1{
+    color: rgb(100.00%, 25.10%, 74.90%);
+    background-color: rgb(50.20%, 70.98%, 16.86%);
+}
+
+p{
+    color: rgb(50.20%, 4.31%, 12.55%);
+}
+
+h1{
+    color: #ECFB01;
+    background-color: #FC93FF;
+}

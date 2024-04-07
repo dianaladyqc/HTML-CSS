@@ -1,0 +1,10 @@
+/* color detras de un contenedor, el cual se le deben de aplicar medidas */
+.sombra{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 100px;
+    /* LOS VALORE PODEMOS PONERLOS EN NEGATIVO y se mueven a la izquierda*/
+    /* lados: horizontal, vertical- radio de difuminacion - radio de expancion(que ta extendidad va a estar con respeto al contenedor)*/
+    box-shadow: 20px 20px 10px 10px green;
+}

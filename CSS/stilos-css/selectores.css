@@ -1,0 +1,70 @@
+/* agrega estilos a toda la pagina */
+
+/* * {
+    font-size: 50px;
+    color: hotpink;
+} */
+
+/* selector de etiqueta */
+h1 {
+    background-color: indigo;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+/* selector de etiqueta multiple*/
+h3,h4 {
+    color: brown;
+}
+
+/* CLASES  todos los elementos que tenga las clase primerParrafo*/
+.primerParrafo {
+    color: aqua;
+    background-color: blue;
+    font-size: 13px;
+
+}
+
+a.primerParrafo {
+    color: aqua;
+    background-color: blue;
+    font-size: 13px;
+}
+
+/* Identificadores */
+#selectoId{
+    color: orangered;
+    background-color: yellow;
+    font-size: 60px;
+}
+
+/* selector descendente */
+/* la descendencia se le agrega al ultimo elemento de la descendencia */
+#selectoDescendente a p{
+    color: peachpuff;
+    background-color: red;
+    font-size: 60px;
+}
+
+/* selector hijo */
+h1>a{
+    color:purple;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p>a {
+    color: red;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+

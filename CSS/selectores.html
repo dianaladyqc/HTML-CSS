@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <link rel="stylesheet" href="./stilos-css/selectores.css">
+</head>
+<body>
+    <h1>selector universal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta suscipit, magni voluptatum vel consequatur in laboriosam mollitia ducimus soluta placeat, exercitationem est at commodi eligendi sunt alias repudiandae totam.</p>
+
+
+    <h3>selector de etiqueta multiple</h3>
+    <h4>selector de etiqueta multiple</h4>
+
+    <h2 class="primerParrafo">selector CLASS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto distinctio, aliquid accusamus ad temporibus expedita facere ab debitis? Quasi nulla officia similique aperiam maiores, tempore quo vitae odit. Id, quisquam!</p>
+
+    <p class="segundoParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="primerParrafo">
+    Architecto distinctio, aliquid accusamus ad temporibus expedita facere ab debitis?</a>Quasi nulla officia similique aperiam maiores, tempore quo vitae odit. Id, quisquam!</p>
+
+
+    <a href="#">
+        Architecto distinctio, aliquid accusamus ad temporibus expedita facere ab debitis?</a>
+
+    
+
+    <h5>Selector de ID</h5>
+    <p id="selectoId" >Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="primerParrafo">
+    Architecto distinctio, aliquid accusamus ad temporibus expedita facere ab debitis?</a>Quasi nulla officia similique aperiam maiores, tempore quo vitae odit. Id, quisquam!</p>
+
+
+    <h6>Selector descendente</h6>
+    <p id="selectoDescendente" >Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" >
+    Architecto distinctio, aliquid accusamus ad temporibus expedita facere ab debitis?</a>Quasi nulla officia similique aperiam maiores, tempore quo vitae odit. Id, quisquam!</p>
+
+    <!-- a es hijo inmediato de h5 -->
+    <h5>Selector hijo <a href="#">LINK 1</a></h5>
+    <!-- a es hijo directo de p -->
+    <h5><p><a href="#">LINK 1</a></p></h5>
+    
+    <!-- el estilo de sel elector adyacente seria h1+h2, los cambios afectarian solo a h2 -->
+    <h1 id="adyacente">selector adyacente</h1>
+    <h2 id="adyacente1">selector adyacente</h2>
+    <h3 id="adyacente2">selector no adyacente</h3>
+
+
+    <h1>selector de atributo</h1>
+    <!-- [class]{
+        color
+        background-color
+        font-size
+    } -->
+
+    <!-- [class="parrafo"]{
+        color
+        background-color
+        font-size
+    } -->
+
+</body>
+</html>

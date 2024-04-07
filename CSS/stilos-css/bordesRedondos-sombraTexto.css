@@ -1,0 +1,21 @@
+.redondo{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.esquinas{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 300px;
+}
+
+.sombra2{
+    margin: 50px;
+    font-size: 48px;
+    text-shadow: grey 5px 5px 50px;
+}
